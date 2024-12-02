@@ -8,7 +8,7 @@ using namespace std;
 bool isSafe(vector<int>, int);
 int main()
 {
-    ifstream file("Day2.txt");
+    ifstream file("data/Day2.txt");
     string line;
     long count = 0;
     while (getline(file, line))

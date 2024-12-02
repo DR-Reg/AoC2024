@@ -7,7 +7,7 @@
 using namespace std;
 int main()
 {
-    ifstream file("Day2.txt");
+    ifstream file("data/Day2.txt");
     string line;
     int count = 0;
     while (getline(file, line))

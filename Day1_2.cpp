@@ -5,7 +5,7 @@
 
 int main()
 {
-    std::ifstream file("Day1.txt");
+    std::ifstream file("data/Day1.txt");
     long l,r;
     std::set<int> left;
     std::map<int, int> right;

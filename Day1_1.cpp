@@ -4,7 +4,7 @@
 
 int main()
 {
-    std::ifstream file("Day1.txt");
+    std::ifstream file("data/Day1.txt");
     long l,r;
     std::priority_queue<int> left, right;
     while (file >> l >> r)
